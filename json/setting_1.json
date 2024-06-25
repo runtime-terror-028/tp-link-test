@@ -1,0 +1,10 @@
+{
+    "buttons": [
+        {"text": "Finn 1", "contentUrl": "content/setting_1/content.html", "content2Url": "content/setting_1/detail.html"},
+        {"text": "Finn 2", "contentUrl": "content/setting_1/content.html", "content2Url": "content/setting_1/detail2.html"},
+        {"text": "Finn 3", "contentUrl": "content/setting_1/content.html", "content2Url": "content/setting_1/detail3.html"},
+        {"text": "Finn 4", "contentUrl": "content/setting_1/content.html", "content2Url": "content/setting_1/detail4.html"},
+        {"text": "Finn 5", "contentUrl": "content/setting_1/content.html", "content2Url": "content/setting_1/detail5.html"}
+
+    ]
+}

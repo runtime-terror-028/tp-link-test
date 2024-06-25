@@ -1,0 +1,7 @@
+{
+    "buttons": [
+        {"text": "Setting 2.1", "contentUrl":  "content/setting_2/content.html", "content2Url": "content/setting_2/detail.html"},
+        {"text": "Setting 2.1", "contentUrl":  "content/setting_2/content.html", "content2Url": "content/setting_2/detail2.html"}
+
+    ]
+}
