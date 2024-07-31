@@ -52,3 +52,22 @@ A more straightforward method, though not always recommended for every use case,
 
 ### Summary
 For a robust solution, especially if you have control over the server, setting proper HTTP headers is the best approach. You can complement it with JavaScript techniques if you need finer control or if you're working with a Single Page Application (SPA).
+
+
+---
+
+### 3. **Express (Node.js)**
+
+If you’re using an Express server in Node.js, you can set HTTP headers directly in your route handlers.
+
+**Express Code:**
+
+```javascript
+app.get('/index', (req, res) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+  res.sendFile('/path/to/index.html');
+});
+```
+
